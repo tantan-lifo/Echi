@@ -1,0 +1,18 @@
+目标：想要完成csdn将前台传入的数据插入的任务
+访问路径：http://localhost/tp5.1/public/admin/user/create
+
+
+困惑：
+    后缀user
+
+    多模块相关（已解决）
+
+bug：
+    访问admin\user\test0可以，但create报错：模板文件不存在:E:\wamp\www\tp5.1\application\admin\view\user\user.html
+
+需要学习：
+    1.为什么访问不了
+    2.
+     $user = Db::table('user');
+     if ($user->allowField(true)
+     的语法
